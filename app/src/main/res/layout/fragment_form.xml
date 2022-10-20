@@ -50,10 +50,10 @@
         android:hint="@string/responsavel"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColorHint="#546E7A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editDescricao" />
+        app:layout_constraintTop_toBottomOf="@+id/editDescricao"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/editData"
